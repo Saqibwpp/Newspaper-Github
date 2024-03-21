@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+}
+
+img,
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.wrapper {
+  width: 100%;
+  padding: 25px;
+  border-radius: 18px;
+  max-width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid;
+  box-shadow: 10px 12px 8px rgba(0, 0, 0, 65);
+}
+
+.firstimage img {
+  border-radius: 8px;
+}
+
+.imgandlearning {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+
+.learning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 12px;
+  font-weight: 800;
+  width: 100%;
+  max-width: 80px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 420;
+  color: hsl(0, 0%, 7%);
+  padding-bottom: 12px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 14px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+  padding-bottom: 18px;
+}
+
+.imgname {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.imgname img {
+  width: 20px;
+  height: 20px;
+}
+
+.imgname span {
+  font-size: 12px;
+  font-weight: 800;
+}
